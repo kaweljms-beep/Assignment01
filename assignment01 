@@ -1,0 +1,21 @@
+dinner_guests = ['kimmich', 'musiala', 'gnabry', 'sane']
+
+def send_dinner_invites(guests):
+    for person in guests:
+        message = f"{person.title()}, I'm inviting you for dinner."
+        print(message)
+
+send_dinner_invites(dinner_guests)
+
+print(f"\n{dinner_guests[3].title()} can't make it for dinner.\n")
+
+dinner_guests[3] = 'neuer'
+send_dinner_invites(dinner_guests)
+
+print("\nGood news! We found a bigger table.\n")
+
+dinner_guests.insert(0, 'kane')
+dinner_guests.insert(2, 'de ligt')
+dinner_guests.append('goretzka')
+
+send_dinner_invites(dinner_guests)
