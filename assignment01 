@@ -1,21 +1,29 @@
-dinner_guests = ['kimmich', 'musiala', 'gnabry', 'sane']
+#guest list
+guest_list_dinner=['neuer','kimmich','sane','kane']
+print(guest_list_dinner[0],"i'm inviting you for a dinner")
+print(guest_list_dinner[1],"i'm inviting you for a dinner")
+print(guest_list_dinner[2],"i'm inviting you for a dinner")
+print(guest_list_dinner[3],"i'm inviting you for a dinner")
+#changing guest list
+print(guest_list_dinner[3]," : sorry i can't make it for dinner")
+#adding a new person
+print("a new list for our dinner")
+guest_list_dinner[3]='musiala'
+print(guest_list_dinner[0],"i'm inviting you for a dinner")
+print(guest_list_dinner[1],"i'm inviting you for a dinner")
+print(guest_list_dinner[2],"i'm inviting you for a dinner")
+print(guest_list_dinner[3],"i'm inviting you for a dinner")
 
-def send_dinner_invites(guests):
-    for person in guests:
-        message = f"{person.title()}, I'm inviting you for dinner."
-        print(message)
+a list for more invitees to our dinner because a bigger table has been found
 
-send_dinner_invites(dinner_guests)
-
-print(f"\n{dinner_guests[3].title()} can't make it for dinner.\n")
-
-dinner_guests[3] = 'neuer'
-send_dinner_invites(dinner_guests)
-
-print("\nGood news! We found a bigger table.\n")
-
-dinner_guests.insert(0, 'kane')
-dinner_guests.insert(2, 'de ligt')
-dinner_guests.append('goretzka')
-
-send_dinner_invites(dinner_guests)
+print("good news we found a bigger table with more people for dinner")
+guest_list_dinner.insert(0,'muller')
+guest_list_dinner.insert( 2,'goretzka')
+guest_list_dinner.append("coman")
+print(guest_list_dinner[0],"i'm inviting you for a dinner")
+print(guest_list_dinner[1],"i'm inviting you for a dinner")
+print(guest_list_dinner[2],"i'm inviting you for a dinner")
+print(guest_list_dinner[3],"i'm inviting you for a dinner")
+print(guest_list_dinner[4],"i'm inviting you for a dinner")
+print(guest_list_dinner[5],"i'm inviting you for a dinner")
+print(guest_list_dinner[6],"i'm inviting you for a dinner")
