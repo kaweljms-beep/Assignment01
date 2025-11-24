@@ -13,9 +13,7 @@ print(guest_list_dinner[0],"i'm inviting you for a dinner")
 print(guest_list_dinner[1],"i'm inviting you for a dinner")
 print(guest_list_dinner[2],"i'm inviting you for a dinner")
 print(guest_list_dinner[3],"i'm inviting you for a dinner")
-
-a list for more invitees to our dinner because a bigger table has been found
-
+# a list for more invitees to our dinner because a bigger table has been found
 print("good news we found a bigger table with more people for dinner")
 guest_list_dinner.insert(0,'muller')
 guest_list_dinner.insert( 2,'goretzka')
