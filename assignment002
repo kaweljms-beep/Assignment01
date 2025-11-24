@@ -1,0 +1,15 @@
+countries_i_want_to_visit = ['Turkey','united kingdom','canada','germany','Brazile']
+
+print("places I really want to go:")
+
+print(countries_i_want_to_visit[0])
+print(countries_i_want_to_visit[1]) 
+print(countries_i_want_to_visit[2])
+print(countries_i_want_to_visit[3])
+print(countries_i_want_to_visit[4])
+
+countries_i_want_to_visit.sort()
+print("sorted:", countries_i_want_to_visit)
+
+countries_i_want_to_visit.sort(reverse=True)
+print("backwards:", countries_i_want_to_visit)
