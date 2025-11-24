@@ -1,0 +1,30 @@
+guest_list_dinner = ['kimmich','musiala','sane','gnabry']
+
+print(guest_list_dinner[0], " - you're invited for dinner!")
+print(guest_list_dinner[1], " - you're invited for dinner!")
+print(guest_list_dinner[2], " - you're invited for dinner!")
+print(guest_list_dinner[3], " - you're invited for dinner!")
+
+print("\nUgh..", guest_list_dinner[3], "just texted that he can't come.\n")
+
+guest_list_dinner[3] = 'neuer'
+print("Updated list... I think.\n")
+
+print(guest_list_dinner[0], " - dinner invite still good")
+print(guest_list_dinner[1], " - still invited ofc")
+print(guest_list_dinner[2], " - yup, still coming?")
+print(guest_list_dinner[3], " - Neuer you're in now")
+
+print("\nOh btw we found a bigger table so we can drag more players along lol\n")
+
+guest_list_dinner.insert(0,'kane')
+guest_list_dinner.insert(2,'de_ligt')
+guest_list_dinner.append('goretzka')
+
+print(guest_list_dinner[0], " - wanna join?")
+print(guest_list_dinner[1], " - dinner invite again lol")
+print(guest_list_dinner[2], " - yeah you're invited")
+print(guest_list_dinner[3], " - dinner tonight???")
+print(guest_list_dinner[4], " - pulling up?")
+print(guest_list_dinner[5], " - you better come")
+print(guest_list_dinner[6], " - dinner bro")
